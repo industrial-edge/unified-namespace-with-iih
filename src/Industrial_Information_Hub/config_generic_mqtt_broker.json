@@ -1,0 +1,10 @@
+{
+  "topic": "Siemens/CityX/BuildingX/LineX/$path/$attributeName",
+  "payload": {
+    "datapoints": {
+      "Measurement": "$value",
+      "Time": "$timestamp:ISO8601",
+      "Quality_Code": "$qualityCode"
+    }
+  }
+}
